@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "watch": "npx tailwindcss -i ./resources/css/app.css -o ./dist/app.css --watch"
+    "watch": "npx tailwindcss -i ./resources/css/app.css -o ./dist/app.css --watch",
+    "build": "npx tailwindcss -i ./resources/css/app.css -o ./dist/app.css --minify"
   },
   "devDependencies": {
     "tailwindcss": "^3.0.23"
